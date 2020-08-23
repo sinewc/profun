@@ -1,10 +1,10 @@
 #include<stdio.h>
 int main() {
-	int x, i = 2, sum = 0;
+	int x;
 	printf("Enter number = ");
 	scanf_s("%d", &x);
 	printf("Factoring Result : ");
-	for (; x != 1; i++) {
+	for (int i = 2 ; x != 1; i++) {
 		if (x % i == 0) {
 			printf("%d", i);
 			x = x / i;
