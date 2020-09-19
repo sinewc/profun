@@ -28,6 +28,8 @@ int main()
             grade = 'C';
         else if (total >= 50)
             grade = 'D';
+        else
+            grade = 'F';
         printf("%2d\t\t %2d\t\t %2d\t\t %2d\t\t %2d\t\t %2d\t\t %c\n", i + 1, sc[i][0], sc[i][1], sc[i][2], sc[i][3], total, grade);
     }
     return 0;
