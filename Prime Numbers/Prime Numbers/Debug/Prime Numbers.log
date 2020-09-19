@@ -1,0 +1,5 @@
+﻿  Source.cpp
+D:\Profun\profun\Prime Numbers\Prime Numbers\Source.cpp(12,12): warning C4477: 'printf' : format string '%u' requires an argument of type 'unsigned int', but variadic argument 3 has type 'unsigned __int64'
+D:\Profun\profun\Prime Numbers\Prime Numbers\Source.cpp(12,12): message : consider using '%llu' in the format string
+D:\Profun\profun\Prime Numbers\Prime Numbers\Source.cpp(12,12): message : consider using '%I64u' in the format string
+  Prime Numbers.vcxproj -> D:\Profun\profun\Prime Numbers\Debug\power.exe
