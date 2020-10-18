@@ -1,0 +1,5 @@
+﻿  Source.cpp
+D:\Profun\profun\Sansuk  Condominium\Sansuk  Condominium\Source.cpp(13,72): warning C4566: character represented by universal-character-name '\u00DF' cannot be represented in the current code page (874)
+D:\Profun\profun\Sansuk  Condominium\Sansuk  Condominium\Source.cpp(26,38): warning C4566: character represented by universal-character-name '\u00DF' cannot be represented in the current code page (874)
+D:\Profun\profun\Sansuk  Condominium\Sansuk  Condominium\Source.cpp(51,9): warning C4566: character represented by universal-character-name '\u00DF' cannot be represented in the current code page (874)
+  Sansuk  Condominium.vcxproj -> D:\Profun\profun\Sansuk  Condominium\Debug\Sansuk  Condominium.exe
