@@ -75,7 +75,6 @@ void Game::initKeys()
 void Game::initStates()
 {
     this->states.push(new MainMenuState(this->window, &this->supportedKeys,&this->states));
-   
 }
 
 
@@ -129,7 +128,6 @@ void Game::update()
         this->states.top()->update(this->dt);
             if(this->states.top()->getQuit())
             {
-                this->states.top()->endState();
                 delete this->states.top();
                 this->states.pop();
             }

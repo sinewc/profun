@@ -6,6 +6,7 @@
 #include<ctime>
 #include<cstdlib>
 #include<sstream>
+#include<string>
 
 
 #include "SFML\System.hpp"
@@ -19,23 +20,25 @@ class Button
 {
 private:
 	short unsigned buttonState;
+
 	sf::RectangleShape shape;
-	sf::Font* font;
-	sf::Text text;
+	sf::Texture buttonTexture;
+
 
 	sf::Color idleColor;
 	sf::Color hoverColor;
 	sf::Color activeColor;
 
 public:
-	Button(float x,float y,float width,float height, 
-		sf::Font* font,std::string text,
-		sf::Color idleColor, sf::Color hoverColor,sf::Color activeColor);
+	Button(float x, float y, float width, float height,
+		std::string imagePath);
 	~Button();
 	//Accessors
 	const bool isPressd() const;
 
 	//Functions
+	void initButton();
+	void initTexture();
 	void updete(const sf::Vector2f mousePos);
 	void render(sf::RenderTarget* target);
 };

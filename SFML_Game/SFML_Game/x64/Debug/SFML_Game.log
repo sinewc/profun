@@ -1,0 +1,7 @@
+﻿  Player.cpp
+D:\Profun\profun\SFML_Game\SFML_Game\Player.cpp(22,38): warning C4305: 'argument': truncation from 'double' to 'T'
+          with
+          [
+              T=float
+          ]
+  SFML_Game.vcxproj -> D:\Profun\profun\SFML_Game\x64\Debug\SFML_Game.exe
