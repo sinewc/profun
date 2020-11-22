@@ -7,9 +7,9 @@ int main()
     int res;
 
     printf("Enter first string: ");
-    scanf_s("%s", str2,MAX_SIZE);
+    gets_s(str1);
     printf("Enter second string: ");
-    scanf_s("%s", str2,MAX_SIZE);
+    gets_s(str2);
     res = compare(str1, str2);
     if (res == 0)
     {
@@ -34,7 +34,10 @@ int compare(char* str1, char* str2)
     {
         if (str1[i] == '\0' && str2[i] == '\0')
             break;
-         i++;
+
+        i++;
     }
- return str1[i] - str2[i];
+
+
+    return str1[i] - str2[i];
 }
